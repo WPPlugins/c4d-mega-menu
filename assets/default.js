@@ -1,0 +1,1 @@
+!function(n){"use strict";function e(){var e=n(window).width();n(".c4d-mega-menu > .sub-menu").each(function(t,c){n(c).css({left:"0"});var i=n(c).width(),u=n(c).offset(),f=u.left-(e-i)/2;n(c).css({left:"-"+f+"px"})})}n(document).ready(function(){e(),n(window).on("resize",function(){e()})})}(jQuery);
